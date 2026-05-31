@@ -4,7 +4,19 @@
  *	Date:
  *		2016.08.08
  */
-#include <bits/stdc++.h>
+#include <algorithm>
+#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+#include <cstring>
+#include <ctime>
+#include <iostream>
+#include <map>
+#include <queue>
+#include <set>
+#include <string>
+#include <unordered_map>
+#include <unordered_set>
 using namespace std;
 #define HASH
 const int cnt_f = 12, m = 20;

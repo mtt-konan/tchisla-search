@@ -62,9 +62,6 @@ The shipped source defines `HASH` by default.
 - A C++11‑capable compiler (GCC or Clang recommended).
 - Standard C++ library.
 
-> The code uses `#include <bits/stdc++.h>`, which is supported by GCC/Clang but
-> **not** by MSVC. On Windows, MinGW or WSL is recommended.
-
 ### macOS / Linux (GCC or Clang)
 
 From the `seach/` directory:
