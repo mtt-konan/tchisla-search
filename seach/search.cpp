@@ -145,9 +145,9 @@ public:
 	}
 	inline friend string to_str(const frac &a) {
 		if (a.n == 1)
-			sprintf(buff, "%I64d", a.d);
+			sprintf(buff, "%lld", a.d);
 		else
-			sprintf(buff, "(%I64d | %I64d)", a.d, a.n);
+			sprintf(buff, "(%lld | %lld)", a.d, a.n);
 		return buff;
 	}
 	inline int in() {
